@@ -2,7 +2,7 @@
 <table>
 <!-- ![drawing](net_visualization.png) -->
 <tr>
-    <td><img src="net_visualization.png" alt="HTML5 Icon" width="150" height="150"></td>
+    <td><img src="net_visualization.png" alt="HTML5 Icon"></td>
 </tr>
 </table>
 
