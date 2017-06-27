@@ -1,11 +1,17 @@
 ## Network Design
 <table>
-<!-- ![drawing](net_visualization.png) -->
 <tr>
     <td><img src="net_visualization.png" alt="HTML5 Icon"></td>
 </tr>
 </table>
 
+<table>
+<tr>
+    <img src="net_visualization.png" alt="HTML5 Icon">
+</tr>
+</table>
+
+<img src="net_visualization.png" alt="HTML5 Icon">
 ## Results
 
 Set of results for images depicting triangles that should be obvious for
