@@ -1,3 +1,4 @@
+<center>
 <table>
 <tr>
     <th>Image</th>
@@ -43,3 +44,4 @@
     <td>0.3420849</td>
 </tr>
 </table>
+</center>
