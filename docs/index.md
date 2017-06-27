@@ -1,5 +1,10 @@
 ## Network Design
-![drawing](net_visualization.png)
+<table>
+<!-- ![drawing](net_visualization.png) -->
+<tr>
+    <td><img src="net_visualization.png" alt="HTML5 Icon" width="150" height="150"></td>
+</tr>
+</table>
 
 ## Results
 
