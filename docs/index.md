@@ -1,7 +1,7 @@
 ## Network Design
 <table>
 <tr>
-    <td><img src="net_visualization.png" alt="HTML5 Icon" width="10000"></td>
+    <td>ss<img src="net_visualization.png" alt="HTML5 Icon" width="10000"></td>
 </tr>
 </table>
 
@@ -44,6 +44,12 @@ classifier and not so many examples with strange camera angles.
     <td><img src="http://farm1.static.flickr.com/208/467603366_cfc237571e.jpg" alt="HTML5 Icon" width="150" height="150"></td>
     <td><img src="http://farm3.static.flickr.com/2436/3949033524_dc688743cc.jpg" alt="HTML5 Icon" width="150" height="150"></td>
     <td><img src="http://1.bp.blogspot.com/_SO_1-gB06t0/THKKKLGsZdI/AAAAAAAAD0I/EkRvobQicq8/s1600/IMGP8509.JPG" alt="HTML5 Icon" width="150" height="150"></td>
+    <td><img src="http://www.kelabhk.com/CREATIVEPHOTO/ALLPHOTO/DoubleCONE.jpg" alt="HTML5 Icon" width="150" height="150"></td>
+    <td><img src="http://www.kelabhk.com/CREATIVEPHOTO/ALLPHOTO/DoubleCONE.jpg" alt="HTML5 Icon" width="150" height="150"></td>
+    <td><img src="http://www.kelabhk.com/CREATIVEPHOTO/ALLPHOTO/DoubleCONE.jpg" alt="HTML5 Icon" width="150" height="150"></td>
+    <td><img src="http://www.kelabhk.com/CREATIVEPHOTO/ALLPHOTO/DoubleCONE.jpg" alt="HTML5 Icon" width="150" height="150"></td>
+    <td><img src="http://www.kelabhk.com/CREATIVEPHOTO/ALLPHOTO/DoubleCONE.jpg" alt="HTML5 Icon" width="150" height="150"></td>
+    <td><img src="http://www.kelabhk.com/CREATIVEPHOTO/ALLPHOTO/DoubleCONE.jpg" alt="HTML5 Icon" width="150" height="150"></td>
     <td><img src="http://www.kelabhk.com/CREATIVEPHOTO/ALLPHOTO/DoubleCONE.jpg" alt="HTML5 Icon" width="150" height="150"></td>
 </tr>
 
