@@ -4,9 +4,6 @@
     <td><img src="http://farm2.static.flickr.com/1133/638741937_fb6d083357.jpg?v=0" alt="HTML5 Icon" width="150" height="150"></td>
     <td><img src="http://farm4.static.flickr.com/3622/3362307618_590e37da12.jpg" alt="HTML5 Icon" width="150" height="150"></td>
     <td><img src="http://farm6.static.flickr.com/5261/5579646031_c7900ff6c8.jpg" alt="HTML5 Icon" width="150" height="150"></td>
-    <td><img src="http://farm1.static.flickr.com/208/467603366_cfc237571e.jpg" alt="HTML5 Icon" width="150" height="150"></td>
-    <td><img src="http://farm3.static.flickr.com/2436/3949033524_dc688743cc.jpg" alt="HTML5 Icon" width="150" height="150"></td>
-    <td><img src="http://farm4.static.flickr.com/3069/2371655967_71722f1848.jpg" alt="HTML5 Icon" width="150" height="150"></td>
 </tr>
 
 <tr>
@@ -14,9 +11,6 @@
     <td>0.9980729</td>
     <td>0.0000309</td>
     <td>0.9998710</td>
-    <td>0.9999931</td>
-    <td>0.9999542</td>
-    <td>0.6579151</td>
 </tr>
 
 <tr>
@@ -24,6 +18,26 @@
     <td>0.0019271</td>
     <td>0.9999691</td>
     <td>0.0001289</td>
+</tr>
+</table>
+
+<table>
+<tr>
+    <th>Image</th>
+    <td><img src="http://farm1.static.flickr.com/208/467603366_cfc237571e.jpg" alt="HTML5 Icon" width="150" height="150"></td>
+    <td><img src="http://farm3.static.flickr.com/2436/3949033524_dc688743cc.jpg" alt="HTML5 Icon" width="150" height="150"></td>
+    <td><img src="http://farm4.static.flickr.com/3069/2371655967_71722f1848.jpg" alt="HTML5 Icon" width="150" height="150"></td>
+</tr>
+
+<tr>
+    <th>Triangle</th>
+    <td>0.9999931</td>
+    <td>0.9999542</td>
+    <td>0.6579151</td>
+</tr>
+
+<tr>
+    <th>Circle</th>
     <td>0.0000069</td>
     <td>0.0000458</td>
     <td>0.3420849</td>
