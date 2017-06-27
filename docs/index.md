@@ -1,10 +1,7 @@
 ## Network Design
 <table>
 <tr>
-    <td><img src="net_visualization.png" alt="HTML5 Icon"></td>
-    <td><img src="net_visualization.png" alt="HTML5 Icon"></td>
-    <td><img src="net_visualization.png" alt="HTML5 Icon"></td>
-    <td><img src="net_visualization.png" alt="HTML5 Icon"></td>
+    <td><img src="net_visualization.png" alt="HTML5 Icon" width="10000"></td>
 </tr>
 </table>
 
