@@ -1,3 +1,6 @@
+## Network Design
+![drawing](net_visualization.png)
+
 ## Results
 
 Set of results for images depicting triangles that should be obvious for
