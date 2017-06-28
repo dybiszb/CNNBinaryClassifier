@@ -71,7 +71,7 @@ classifier and not so many examples with strange camera angles.
 </table>
 
 Set of results for images depicting circles that should be obvious for
-the classifier to classify. Network handles well the task.
+the classifier to classify. Network handles the task well.
 
 <table>
 <tr>
@@ -125,54 +125,57 @@ the classifier to classify. Network handles well the task.
 </tr>
 </table>
 
----------------------------------------------------------------------
+Set of results for images containing oval and triangulish shapes. I
+was wondering how the classifier will react to those mixed pictures.
+As it occurs, the network seems to be more into circles, unless shape
+of a triangle is an obvious, plane case without any unusual perspective.
+It may come from a fact that in training/testing set, the triangles
+were underrepresented and treated only simple cases.
 <table>
 <tr>
     <th>Image</th>
-    <td><img src="dddd" alt="HTML5 Icon" width="150" height="150"></td>
-    <td><img src="dddd" alt="HTML5 Icon" width="150" height="150"></td>
-    <td><img src="dddd" alt="HTML5 Icon" width="150" height="150"></td>
-    <td><img src="dddd" alt="HTML5 Icon" width="150" height="150"></td>
+    <td><img src="http://farm4.static.flickr.com/3243/3367977848_136586004a.jpg" alt="HTML5 Icon" width="150" height="150"></td>
+    <td><img src="http://farm2.static.flickr.com/1329/4603472286_cd8b9521ac.jpg" alt="HTML5 Icon" width="150" height="150"></td>
+    <td><img src="http://farm4.static.flickr.com/3442/3356045299_718107585e.jpg" alt="HTML5 Icon" width="150" height="150"></td>
+    <td><img src="https://s-media-cache-ak0.pinimg.com/736x/46/ef/3b/46ef3be35e81e6acf4570d39bf488420.jpg" alt="HTML5 Icon" width="150" height="150"></td>
 </tr>
 
 <tr>
     <th>Triangle</th>
-    <td>11111</td>
-    <td>11111</td>
-    <td>11111</td>
-    <td>11111</td>
+    <td>0.0006555</td>
+    <td>0.4060124</td>
+    <td>0.0000001</td>
+    <td>1.0000000</td>
 </tr>
-
 <tr>
     <th>Circle</th>
-    <td>11111</td>
-    <td>11111</td>
-    <td>11111</td>
-    <td>11111</td>
+    <td>0.9993445</td>
+    <td>0.5939876</td>
+    <td>0.9999999</td>
+    <td>0.0000000</td>
 </tr>
 </table>
+
 <table>
 <tr>
     <th>Image</th>
-    <td><img src="dddd" alt="HTML5 Icon" width="150" height="150"></td>
-    <td><img src="dddd" alt="HTML5 Icon" width="150" height="150"></td>
-    <td><img src="dddd" alt="HTML5 Icon" width="150" height="150"></td>
-    <td><img src="dddd" alt="HTML5 Icon" width="150" height="150"></td>
+    <td><img src="http://farm6.static.flickr.com/5028/5619935182_a0763fb8bf.jpg" alt="HTML5 Icon" width="150" height="150"></td>
+    <td><img src="http://araischool.up.seesaa.net/image/109.jpg" alt="HTML5 Icon" width="150" height="150"></td>
+    <td><img src="http://www.uh.edu/engines/icosahedron.jpg" alt="HTML5 Icon" width="150" height="150"></td>
+    <td><img src="http://farm5.static.flickr.com/4127/5199584958_a7043537d9.jpg" alt="HTML5 Icon" width="150" height="150"></td>
 </tr>
-
 <tr>
     <th>Triangle</th>
-    <td>11111</td>
-    <td>11111</td>
-    <td>11111</td>
-    <td>11111</td>
+    <td>0.0016108</td>
+    <td>0.0216434</td>
+    <td>0.0002671</td>
+    <td>0.0294803</td>
 </tr>
-
 <tr>
     <th>Circle</th>
-    <td>11111</td>
-    <td>11111</td>
-    <td>11111</td>
-    <td>11111</td>
+    <td>0.9983892</td>
+    <td>0.9783567</td>
+    <td>0.9997329</td>
+    <td>0.9705198</td>
 </tr>
 </table>
