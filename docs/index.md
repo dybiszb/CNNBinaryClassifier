@@ -3,10 +3,11 @@ In order to obtain the data for training/testing purposes, I helped
 myself with ImageNet webpage. The page contains of enormous number
 of images, sorted according to tags. Using tags *triangle* and
 *circle* I was able to put my hands on the URLs lists and utilizing
-simple python script enabled me to download and dispose any damaged
-photos. There are:
+simple python script enabled me to download the images and dispose
+any that was damaged. There are:
 * 153 triangle pictures
 * 564 circle pictures
+
 Although there is almost 4 times more pictures of circles I was courious
 how the network will response to such disproportion and how it effects
 the final classifier, hence I proceeded.
