@@ -100,7 +100,11 @@ tab'. Then, by clicking on magnifying glass one can inspect fully sized
 image.
 
 ## Results
-Set of results for images depicting triangles that should be obvious for
+First of all, training the network using 10000 steps solver resulted in
+* ~0.8 accuracy
+* ~0.4 loss
+
+Following table presents a set of results for images depicting triangles that should be obvious for
 the classifier to classify. Any change in perspective with a triangle
 image results in dramatic change in performance. It is most probably
 caused by low number of triangle images provided for training the
