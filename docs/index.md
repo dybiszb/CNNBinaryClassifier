@@ -1,3 +1,13 @@
+## Description
+Following project constitutes a part of learning process towards
+completion of the author's Master Thesis. The main aim was
+to create a binary classifier that is able to distinguish between
+triangles and circles with usage of Caffe framework. The page
+describes used assets, network design and results obtained. If one is
+interested in scripts used, one is advised to click *View on Github*
+button above. Unfortunately, the train network could not be uploaded
+due to GitHub's 100mb file size restriction.
+
 ## Test Data
 In order to obtain the data for training/testing purposes, I helped
 myself with ImageNet webpage. The page contains of enormous number
@@ -54,7 +64,7 @@ Here are some examples from triangles test/training data:
 </tr>
 </table>
 
-... and here some of the circles images used:
+... and some more from the circles data set:
 <table>
 <tr>
     <td><img src="http://3.bp.blogspot.com/_OPpAXbtkqCY/TKU3-04q7AI/AAAAAAAAFwM/DalSHySLZ9E/s1600/2.jpg" alt="HTML5 Icon" width="150" height="150"></td>
