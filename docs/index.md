@@ -1,10 +1,18 @@
+## Test Data
+In order to obtain the data for training/testing purposes, I helped
+myself with ImageNet webpage. The page contains of enormous number
+of images, sorted according to tags. Using tags *triangle* and
+*circle* I was able to put my hands on the URLs lists and utilizing
+simple python script downloading and disposing any damaged photos.
+
 ## Network Design
 Since the task purpose was to understand the basics of Caffe framework
 and the thesis involvement in designing convolutional neural networks
 is rather small, I assumed that it would be ok to use an existing
 model of layers. The model is BAIR/BVLC CaffeNet Model with a slight
 modification in fully connected *fc8* - instead of 100 classes, 2 were
-set.
+set. Following image depicts the network layers setup. It has been
+produced with *draw_net.py* script shipped with Caffe.
 
 <img src="net_visualization.png" alt="HTML5 Icon">
 
