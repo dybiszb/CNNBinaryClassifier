@@ -1,0 +1,1 @@
+Each of the files provide a simple list of urls acquired from ImageNet webpage. It is advised to refer to ../Tools/Readme.md's 'Download URL List' section in order to automate the download process. Section 'Delete Non-JPGs' is always worth looking, as it presdents a way to wipe out corrupted and non-jpgs files from the downloaded set.

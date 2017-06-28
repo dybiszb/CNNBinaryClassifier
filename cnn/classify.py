@@ -44,8 +44,12 @@ import numpy as np
 # Parse the arguments
 # ------------------------------------------------------------------------------
 parser = argparse.ArgumentParser()
-parser.add_argument("image_path", help="Path to an image to classify.", type=str)
-parser.add_argument("-v", help="If true, Caffe logs will be displayed. Otherwise, only informations relevant from the point of view of classification process", action='store_false')
+parser.add_argument("image_path", help="Path to an image to classify.",
+                    type=str)
+parser.add_argument("-v", help="If true, Caffe logs will be displayed. "
+                               "Otherwise, only informations relevant from the "
+                               "point of view of classification process",
+                    action='store_false')
 args = parser.parse_args()
 print '-------------       Data Loaded      -------------'
 print 'Image:  ', args.image_path

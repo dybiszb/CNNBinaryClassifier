@@ -1,8 +1,20 @@
-# Directory structure must be as follows:
-# []- root_path
-# |------ type_0_dir
-# |------ type_1_dir
-#
+#!/usr/bin/env python
+"""Creates training/testing data listing for Caffe.
+
+It is assumed that training-to-testing ratio is 9:1.
+
+The directory must follow the structure:
+[]- root_path
+|------ type_0_dir
+|------ type_1_dir
+
+Where type_0_dir and type_1_dir must be relative path to root_path
+
+Usage:
+python create_binary_labels.py [type_0_dir] [type_0_dir] [root_path]
+
+"""
+
 import argparse
 import os, os.path
 from os import listdir
@@ -12,8 +24,10 @@ from os.path import isfile, join
 # Parse the arguments
 # ------------------------------------------------------------------------------
 parser = argparse.ArgumentParser()
-parser.add_argument("type_0_dir", help="Directory relative to the root_path with images of type 0", type=str)
-parser.add_argument("type_1_dir", help="Directory relative to the root_path with images of type 1", type=str)
+parser.add_argument("type_0_dir", help="Directory relative to the root_path "
+                                       "with images of type 0", type=str)
+parser.add_argument("type_1_dir", help="Directory relative to the root_path "
+                                       "with images of type 1", type=str)
 parser.add_argument("root_path", help="Root for relative path.", type=str)
 args = parser.parse_args()
 type_0_path = args.root_path + '/' + args.type_0_dir
@@ -26,16 +40,20 @@ print '[-] Root path:', args.root_path
 # Calculate Train-Test Division
 # ------------------------------------------------------------------------------
 percentage_of_train=0.9
-num_files_type_0 = len([name for name in os.listdir(type_0_path) if os.path.isfile(os.path.join(type_0_path, name))])
-num_files_type_1 = len([name for name in os.listdir(type_1_path) if os.path.isfile(os.path.join(type_1_path, name))])
+num_files_type_0 = len([name for name in os.listdir(type_0_path)
+                        if os.path.isfile(os.path.join(type_0_path, name))])
+num_files_type_1 = len([name for name in os.listdir(type_1_path)
+                        if os.path.isfile(os.path.join(type_1_path, name))])
 num_train_type_0 = int(num_files_type_0 * percentage_of_train)
 num_train_type_1 = int(num_files_type_1 * percentage_of_train)
 
 # ------------------------------------------------------------------------------
 # Get files names
 # -----------------------------------------------------------------------------
-type_0_files = [os.path.abspath(type_0_path + '/' + f) for f in listdir(type_0_path) if isfile(join(type_0_path, f))]
-type_1_files = [os.path.abspath(type_1_path + '/' + f) for f in listdir(type_1_path) if isfile(join(type_1_path, f))]
+type_0_files = [os.path.abspath(type_0_path + '/' + f) for f in
+                listdir(type_0_path) if isfile(join(type_0_path, f))]
+type_1_files = [os.path.abspath(type_1_path + '/' + f) for f in
+                listdir(type_1_path) if isfile(join(type_1_path, f))]
 type_0_train_files = type_0_files[:num_train_type_0]
 type_1_train_files = type_1_files[:num_train_type_1]
 type_0_test_files = type_0_files[num_train_type_0:]
