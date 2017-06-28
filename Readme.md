@@ -31,4 +31,4 @@ repository it must be recreated with usage of scripts.
 development process.
 * **training** - Description of network's structure.
 
-Please refer to directories individual Readme.md for firther information.
+Please refer to directories individual Readme.md for further information.
