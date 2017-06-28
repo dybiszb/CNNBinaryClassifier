@@ -3,27 +3,27 @@ Following project constitutes a part of learning process towards
 completion of the author's Master Thesis. The main aim was
 to create a binary classifier that is able to distinguish between
 triangles and circles with usage of Caffe framework. The page
-describes used assets, network design and results obtained. If one is
-interested in scripts used, one is advised to click *View on Github*
+describes used assets, network design and obtained results. If one is
+interested in used scripts, one is advised to click on *View on Github*
 button above. Unfortunately, the train network could not be uploaded
 due to GitHub's 100mb file size restriction.
 
 ## Test Data
 In order to obtain the data for training/testing purposes, I helped
-myself with ImageNet webpage. The page contains of enormous number
+myself with ImageNet webpage. The page contains enormous number
 of images, sorted according to tags. Using tags *triangle* and
 *circle* I was able to put my hands on the URLs lists and utilizing
 simple python script enabled me to download the images and dispose
-any that was damaged. There are:
+any that were damaged. There are:
 * 153 triangle pictures
 * 564 circle pictures
 
-Although there is almost 4 times more pictures of circles I was courious
-how the network will response to such disproportion and how it effects
+Although there is almost 4 times more pictures of circles than triangles ,
+I was courious how the network will response to such disproportion and how it effects
 the final classifier, hence I proceeded.
 
 Following table presents the ratio between testing and training sets
-in both, circle and triangles images. The rproportion is 9:1 or in other
+in both, circle and triangles images. The proportion is 9:1 or in other
 words: 90% of images in triangles/circles set was used for training and
 10% for testing.
 <table>
@@ -89,7 +89,7 @@ Since the task purpose was to understand the basics of Caffe framework
 and the thesis involvement in designing convolutional neural networks
 is rather small, I assumed that it would be ok to use an existing
 model of layers. The model is BAIR/BVLC CaffeNet Model with a slight
-modification in fully connected *fc8* - instead of 100 classes, 2 were
+modification in fully connected *fc8* layer  - instead of 100 classes, 2 were
 set. Following image depicts the network layers setup. It has been
 produced with *draw_net.py* script shipped with Caffe.
 
