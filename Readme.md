@@ -13,9 +13,16 @@ https://dybiszb.github.io/CNNBinaryClassifier/
 ```
 
 # Technology
- <img src="http://www.kdnuggets.com/wp-content/uploads/caffe.png" alt="HTML5 Icon" >
- <img src="https://www.python.org/static/opengraph-icon-200x200.png" alt="HTML5 Icon" width="150" height="150">
- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Linux_Logo_in_Linux_Libertine_Font.svg/2000px-Linux_Logo_in_Linux_Libertine_Font.svg.png" alt="HTML5 Icon" width="150" height="150">
+<table>
+<tr>
+    <td><img src="http://www.kdnuggets.com/wp-content/uploads/caffe.png" alt="HTML5 Icon" ></td>
+    <td><img src="https://www.python.org/static/opengraph-icon-200x200.png" alt="HTML5 Icon" width="150" height="150"></td>
+    <td><<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Linux_Logo_in_Linux_Libertine_Font.svg/2000px-Linux_Logo_in_Linux_Libertine_Font.svg.png" alt="HTML5 Icon" width="150" height="150"></td>
+</tr>
+</table>
 
 # Structure
-
+* **cnn**
+* **docs**'
+* **imageNetURLs**
+* **training**
