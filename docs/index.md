@@ -3,7 +3,36 @@ In order to obtain the data for training/testing purposes, I helped
 myself with ImageNet webpage. The page contains of enormous number
 of images, sorted according to tags. Using tags *triangle* and
 *circle* I was able to put my hands on the URLs lists and utilizing
-simple python script downloading and disposing any damaged photos.
+simple python script enabled me to download and dispose any damaged
+photos. There are:
+* 153 triangle pictures
+* 564 circle pictures
+Although there is almost 4 times more pictures of circles I was courious
+how the network will response to such disproportion and how it effects
+the final classifier, hence I proceeded.
+
+Following table presents the ratio between testing and training sets
+in both, circle and triangles images. The ratio between training
+and testing set is 9:1 or in other words 90% of images in
+triangles/circles set was used for training and 10% for testing.
+<table>
+<tr>
+    <td></td>
+    <td>Training</td>
+    <td>Testing</td>
+</tr>
+<tr>
+    <td>Triangle</td>
+    <td>137</td>
+    <td>16</td>
+</tr>
+<tr>
+    <td>Circle</td>
+    <td>507</td>
+    <td>57</td>
+</tr>
+</table>
+
 
 ## Network Design
 Since the task purpose was to understand the basics of Caffe framework
