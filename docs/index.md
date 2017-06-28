@@ -41,7 +41,7 @@ Here are some examples from triangles test/training data:
     <td><img src="http://farm1.static.flickr.com/39/76712784_26da0df72c.jpg" alt="HTML5 Icon" width="150" height="150"></td>
     <td><img src="http://i00.i.aliimg.com/photo/v0/399428786/4_Carpeted_tuffcoat_industrial_Finish_Isosceles_Right.jpg" alt="HTML5 Icon" width="150" height="150"></td>
     <td><img src="http://farm5.static.flickr.com/4081/4824471274_15976efd7c.jpg" alt="HTML5 Icon" width="150" height="150"></td>
-    <td><img src="http://farm4.static.flickr.com/3309/4606465260_a3f45c6f7b.jpg" alt="HTML5 Icon" width="150" height="150"></td
+    <td><img src="http://farm4.static.flickr.com/3309/4606465260_a3f45c6f7b.jpg" alt="HTML5 Icon" width="150" height="150"></td>
 </tr>
 </table>
 <table>
@@ -50,7 +50,7 @@ Here are some examples from triangles test/training data:
     <td><img src="http://farm5.static.flickr.com/4141/4900180884_48bd21089e.jpg" alt="HTML5 Icon" width="150" height="150"></td>
     <td><img src="http://farm6.static.flickr.com/5127/5242731848_53af9777e3.jpg" alt="HTML5 Icon" width="150" height="150"></td>
     <td><img src="http://wps.pearsoned.com.au/wps/media/objects/2832/2900149/_images_/ch4.jpg" alt="HTML5 Icon" width="150" height="150"></td>
-    <td><img src="https://threescore.files.wordpress.com/2009/10/pizza.jpg?w=300&h=223" alt="HTML5 Icon" width="150" height="150"></td
+    <td><img src="https://threescore.files.wordpress.com/2009/10/pizza.jpg?w=300&h=223" alt="HTML5 Icon" width="150" height="150"></td>
 </tr>
 </table>
 
@@ -61,7 +61,7 @@ Here are some examples from triangles test/training data:
     <td><img src="http://farm3.static.flickr.com/2713/4355386231_1a091af42b.jpg" alt="HTML5 Icon" width="150" height="150"></td>
     <td><img src="http://www.draftingsupplies.com/977503.jpg" alt="HTML5 Icon" width="150" height="150"></td>
     <td><img src="http://farm1.static.flickr.com/35/67284992_2af6ca29c2.jpg" alt="HTML5 Icon" width="150" height="150"></td>
-    <td><img src="http://farm3.static.flickr.com/2587/3939546096_d0d00a3eaa.jpg" alt="HTML5 Icon" width="150" height="150"></td
+    <td><img src="http://farm3.static.flickr.com/2587/3939546096_d0d00a3eaa.jpg" alt="HTML5 Icon" width="150" height="150"></td>
 </tr>
 </table>
 <table>
@@ -70,7 +70,7 @@ Here are some examples from triangles test/training data:
     <td><img src="http://farm4.static.flickr.com/3103/3166571262_9a68b6f33e.jpg" alt="HTML5 Icon" width="150" height="150"></td>
     <td><img src="http://farm1.static.flickr.com/67/206117477_ba79d3a8f6.jpg" alt="HTML5 Icon" width="150" height="150"></td>
     <td><img src="http://farm4.static.flickr.com/3396/4628930107_2557e868cc.jpg" alt="HTML5 Icon" width="150" height="150"></td>
-    <td><img src="http://farm5.static.flickr.com/4114/4781142533_ee35684dbd.jpg" alt="HTML5 Icon" width="150" height="150"></td
+    <td><img src="http://farm5.static.flickr.com/4114/4781142533_ee35684dbd.jpg" alt="HTML5 Icon" width="150" height="150"></td>
 </tr>
 </table>
 
