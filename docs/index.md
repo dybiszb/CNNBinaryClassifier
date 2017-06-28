@@ -13,9 +13,9 @@ how the network will response to such disproportion and how it effects
 the final classifier, hence I proceeded.
 
 Following table presents the ratio between testing and training sets
-in both, circle and triangles images. The ratio between training
-and testing set is 9:1 or in other words 90% of images in
-triangles/circles set was used for training and 10% for testing.
+in both, circle and triangles images. The rproportion is 9:1 or in other
+words: 90% of images in triangles/circles set was used for training and
+10% for testing.
 <table>
 <tr>
     <td></td>
