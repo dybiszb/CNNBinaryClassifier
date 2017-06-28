@@ -17,12 +17,18 @@ https://dybiszb.github.io/CNNBinaryClassifier/
 <tr>
     <td><img src="http://www.kdnuggets.com/wp-content/uploads/caffe.png" alt="HTML5 Icon" ></td>
     <td><img src="https://www.python.org/static/opengraph-icon-200x200.png" alt="HTML5 Icon" width="150" height="150"></td>
-    <td><<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Linux_Logo_in_Linux_Libertine_Font.svg/2000px-Linux_Logo_in_Linux_Libertine_Font.svg.png" alt="HTML5 Icon" width="150" height="150"></td>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Linux_Logo_in_Linux_Libertine_Font.svg/2000px-Linux_Logo_in_Linux_Libertine_Font.svg.png" alt="HTML5 Icon" width="150" height="150"></td>
 </tr>
 </table>
 
 # Structure
-* **cnn**
-* **docs**'
-* **imageNetURLs**
-* **training**
+* **cnn** - Holds script for classification process and required
+.prototxt sturcture. Since taught network is too big for GitHub
+repository it must be recreated with usage of scripts.
+* **docs**' - Simple data for the results webpage listed at the top.
+* **imageNetURLs** - List of URLs from ImageNet.
+* **tools** - Set of scripts that enables one to recreate the author's
+development process.
+* **training** - Description of network's structure.
+
+Please refer to directories individual Readme.md for firther information.
