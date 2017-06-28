@@ -7,17 +7,6 @@ directories, overwriting files etc, as they were developed only to
 speed up the development process. They are definately not suited for
 wider community and general purposes.
 
-## Binary Labeling: test_files.txt train_files.txt
-Since ../Training/data/train_files.txt and ../Training/data_test_diles.txt are adapted to the author's setup one wants to change their content to fit local development environment. In order to do so simply create_binary_labels
-```
-python create_binary_labels.py triangles circles ../training/data/
-```
-
-##  Convert mean image
-Following command will adapt mean_image.binaryproto for loading to python script via converting it to a numpy array (.npy) file. Please note that the command is follows the author's development environment structure and must be slightly change in order to fit one's directories.
-```
-python convert_meanproto_to_npy.py ../training/data/mean_image.binaryproto ../cnn/model/mean_image.npy
-```
 ## Download URL List
 In order to acquire training and testing data of 2 classes the author
 helped himself with ImageNet webpage that stores enormous amount of
@@ -50,3 +39,15 @@ and corresponding command for circles
 python discard_non_jpgs.py ../training/data/circles
 ```
 Once again the commands assume the author's directories structure and can be adapted in a straight-forward manner.
+
+## Binary Labeling: test_files.txt train_files.txt
+Since ../Training/data/train_files.txt and ../Training/data_test_diles.txt are adapted to the author's setup one wants to change their content to fit local development environment. In order to do so simply create_binary_labels
+```
+python create_binary_labels.py triangles circles ../training/data/
+```
+
+##  Convert mean image
+Following command will adapt mean_image.binaryproto for loading to python script via converting it to a numpy array (.npy) file. Please note that the command is follows the author's development environment structure and must be slightly change in order to fit one's directories.
+```
+python convert_meanproto_to_npy.py ../training/data/mean_image.binaryproto ../cnn/model/mean_image.npy
+```

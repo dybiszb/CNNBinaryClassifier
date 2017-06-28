@@ -32,9 +32,9 @@ parser.add_argument("root_path", help="Root for relative path.", type=str)
 args = parser.parse_args()
 type_0_path = args.root_path + '/' + args.type_0_dir
 type_1_path = args.root_path + '/' + args.type_1_dir
-print '[-] Path to images of type 0:', type_0_path
-print '[-] Path to images of type 1:', type_1_path
-print '[-] Root path:', args.root_path
+print 'Path to images of type 0:', type_0_path
+print 'Path to images of type 1:', type_1_path
+print 'Root path:               ', args.root_path
 
 # ------------------------------------------------------------------------------
 # Calculate Train-Test Division
